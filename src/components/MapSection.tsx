@@ -7,7 +7,7 @@ const stores = [
     address: 'ул. Красивая 58, Кисловодск',
     phone: '+79283022242',
     phoneFormatted: '+7 928 302-22-42',
-    hours: 'Ежедневно: 10:00 — 22:00',
+    hours: 'Ежедневно: 10:00 — 23:00',
     mapLink:
       'https://yandex.ru/maps/?text=Кисловодск+ул+Красивая+58',
   },
@@ -16,7 +16,7 @@ const stores = [
     address: 'ул. Никольская 20, Ессентуки',
     phone: '+79283022242',
     phoneFormatted: '+7 928 302-22-42',
-    hours: 'Ежедневно: 10:00 — 22:00',
+    hours: 'Ежедневно: 10:00 — 23:00',
     mapLink:
       'https://yandex.ru/maps/?text=Ессентуки+ул+Никольская+20',
   },
