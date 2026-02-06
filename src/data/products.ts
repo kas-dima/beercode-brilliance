@@ -2,6 +2,7 @@ import beer1 from '@/assets/beer-1.jpg';
 import beer2 from '@/assets/beer-2.jpg';
 import snacks1 from '@/assets/snacks-1.jpg';
 import bath1 from '@/assets/bath-1.jpg';
+import bottle1 from '@/assets/bottle-1.jpg';
 
 export interface Product {
   id: number;
@@ -15,6 +16,7 @@ export interface Product {
 
 export const categories = [
   { key: 'craft', label: 'Крафт & Разливное' },
+  { key: 'bottle', label: 'Бутылочное' },
   { key: 'snacks', label: 'Снеки' },
   { key: 'bath', label: 'Для бани' },
 ];
@@ -130,5 +132,51 @@ export const products: Product[] = [
     categoryLabel: 'Для бани',
     description: 'Защитная войлочная шапка для комфортного парения',
     image: bath1,
+  },
+  // Бутылочное
+  {
+    id: 13,
+    name: 'Хадыженское Светлое',
+    price: 120,
+    category: 'bottle',
+    categoryLabel: 'Бутылочное',
+    description: 'Классическое светлое пиво с мягким хмелевым вкусом',
+    image: bottle1,
+  },
+  {
+    id: 14,
+    name: 'Пятигорское Живое',
+    price: 130,
+    category: 'bottle',
+    categoryLabel: 'Бутылочное',
+    description: 'Нефильтрованное живое пиво из горного источника',
+    image: bottle1,
+  },
+  {
+    id: 15,
+    name: 'Ессентукское Золотое',
+    price: 110,
+    category: 'bottle',
+    categoryLabel: 'Бутылочное',
+    description: 'Лёгкое золотистое пиво с освежающим послевкусием',
+    image: bottle1,
+  },
+  {
+    id: 16,
+    name: 'Карачаевское Тёмное',
+    price: 140,
+    category: 'bottle',
+    categoryLabel: 'Бутылочное',
+    description: 'Тёмное бутылочное пиво с карамельными нотами',
+    image: bottle1,
+  },
+  {
+    id: 17,
+    name: 'Сладовар Пшеничное',
+    price: 115,
+    category: 'bottle',
+    categoryLabel: 'Бутылочное',
+    description: 'Мягкое пшеничное пиво с нежным солодовым ароматом',
+    image: bottle1,
   },
 ];
