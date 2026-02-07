@@ -62,7 +62,7 @@ export const CartSidebar = ({ open, onOpenChange }: CartSidebarProps) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="flex-1 flex flex-col"
+              className="flex-1 flex flex-col min-h-0 overflow-hidden"
             >
               {items.length === 0 ? (
                 <div className="flex-1 flex flex-col items-center justify-center text-muted-foreground p-8">
